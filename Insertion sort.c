@@ -10,7 +10,7 @@ int insertionSort(int array[],int n)
 	{
 		int temp=array[i];
 		int j=i-1;
-		while(j>=0&&array[j]>temp)
+		while(j>=0 && array[j]>temp)
 		{
 			//shifting element towards right
 			array[j+1]=array[j];
